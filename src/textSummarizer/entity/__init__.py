@@ -13,3 +13,10 @@ class DataValidationConfig:
     STATUS_FILE: Path
     ALL_REQUIRED_FILES: list
     unzip_data_dir: Path
+
+
+@dataclass(frozen=True)
+class DataTransformationConfig:
+    root_dir: Path
+    data_path: Path
+    tokenizer_name: Path

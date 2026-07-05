@@ -18,3 +18,8 @@ data_validation:
   - train.csv
   - test.csv
   - validation.csv
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path: artifacts/data_ingestion
+  tokenizer_name: google/pegasus-cnn_dailymail
